@@ -37,8 +37,8 @@ conda activate crh-cox
 python -m pip install numpy==2.0.2 pandas==2.3.3 scipy==1.13.1 lifelines==0.30.0
 ```
 
-Environment recreation on another computer has not been tested. Input files are
-named `cox_data_{threshold}_Gap_{n}days_{event}.csv`. They contain individual-level
+ Input files are
+named `cox_data_{threshold}_Gap_{n}days_{event}.csv`. They contain individual-levels
 records and are **not included**. Required source fields include id, event, tstart,
 tstop, exposure_status, trueage, prov and a1 (or source-supported sex fallback).
 residenc and e1-e14 are used as described above. Obtain authorized inputs separately.
