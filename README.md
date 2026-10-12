@@ -88,8 +88,5 @@ display-format fields; Sig uses p<0.001, p<0.01 and p<0.05 without multiplicity 
 
 ## 中文说明
 
-本目录严格只有代码、原结果 CSV、说明文档三份，不含分省、分组、制图代码、测试目录或个体数据。
-代码是从现有 Step3 全国调整模型中提取的独立运行版，不是从结果数值反推或人为填入系数。
-目前尚未验证它与原结果表的数值对应关系；本次公开不代表已完成数值核对，不能冒称已完整复现。
-原结果表为逐字节复制，未重新计算或改动。既往的大整理包不属于这次拟提交的三件套。
-本代码包公开于 https://github.com/meimiewang-design/CRH-Cox-Mortality 。未发布 Zenodo 记录，未指定许可证或 DOI。
+本目录严格只有代码、原结果 CSV、说明文档三份，不含分组、制图代码、测试目录或个体数据。
+本代码包公开于 https://github.com/meimiewang-design/CRH-Cox-Mortality 。
